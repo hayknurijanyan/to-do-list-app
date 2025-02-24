@@ -1,13 +1,13 @@
 import React, { useRef } from "react";
 
-interface ConfirmModalProps {
+interface DeleteModalProps {
   isOpen: boolean;
   onClose: () => void;
   onConfirm: () => void;
   text: string;
 }
 
-const ConfirmModal: React.FC<ConfirmModalProps> = ({
+const DeleteModal: React.FC<DeleteModalProps> = ({
   onClose,
   onConfirm,
   text,
@@ -53,4 +53,4 @@ const ConfirmModal: React.FC<ConfirmModalProps> = ({
   );
 };
 
-export default ConfirmModal;
+export default DeleteModal;
