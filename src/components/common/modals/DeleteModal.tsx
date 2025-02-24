@@ -27,7 +27,7 @@ const ConfirmModal: React.FC<ConfirmModalProps> = ({
     >
       <div
         ref={modalRef}
-        className="bg-gray-800 p-6 rounded-md w-1/3"
+        className="bg-gray-800 p-6 rounded-md w-full md:w-1/3 mx-4"
         onClick={(e) => e.stopPropagation()}
       >
         <h3 className="text-lg text-gray-200 font-semibold mb-8 ">
